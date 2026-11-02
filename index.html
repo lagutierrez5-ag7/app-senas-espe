@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manos que Conectan - App Accesible de Señas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú de Navegación Global -->
+    <header>
+        <h1>Manos que Conectan</h1>
+        <nav>
+            <a href="#alfabeto">Alfabeto</a>
+            <a href="#frases">Frases</a>
+            <a href="#gestos">Gestos</a>
+            <a href="#emergencias">Emergencias</a>
+            <a href="#numeros">Números</a>
+        </nav>
+    </header>
+
+    <!-- Banner Principal de Bienvenida (Asegurando la visualización con .JPG) -->
+    <div class="banner-principal">
+        <img src="assets/images/principal.JPG" alt="Collage Principal de Lenguaje de Señas">
+    </div>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Módulo 1: Alfabeto Dactilológico -->
+        <section id="alfabeto" class="card">
+            <h2>Módulo 1: Alfabeto Dactilológico y Deletreo</h2>
+            <p class="descripcion-seña">
+                <strong>Fundamento Teórico &amp; Ejecución:</strong> El deletreo manual es esencial para nombrar personas, lugares o términos técnicos sin seña propia. Se realiza manteniendo la mano dominante firmemente frente al pecho a la altura de los hombros, articulando los dedos con claridad y sin realizar desplazamientos bruscos.
+            </p>
+            <div class="video-container">
+                <video controls width="100%">
+                    <source src="assets/videos/senas_1.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+            <div class="acciones-modulo">
+                <a href="#frases" class="btn-continuar">Continuar Aprendizaje ➔</a>
+            </div>
+            <p class="nota-accesibilidad">♿ <em>Accesibilidad: Observa el video a velocidad normal o redúcela desde los controles según tu ritmo de aprendizaje.</em></p>
+        </section>
+
+        <!-- Módulo 2: Frases y Expresiones Comunes -->
+        <section id="frases" class="card">
+            <h2>Módulo 2: Frases Comunes y Comunicación Rápida</h2>
+            <p class="descripcion-seña">
+                <strong>Fundamento Teórico &amp; Ejecución:</strong> Incluye saludos cotidianos (hola, buenos días, gracias) estructurados para una interacción social fluida. Las manos deben ejecutar un movimiento amplio en el plano frontal orientando las palmas hacia el interlocutor para denotar apertura.
+            </p>
+            <div class="video-container">
+                <video controls width="100%">
+                    <source src="assets/videos/senas_2.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+            <div class="acciones-modulo">
+                <a href="#gestos" class="btn-continuar">Continuar Aprendizaje ➔</a>
+            </div>
+            <p class="nota-accesibilidad">♿ <em>Accesibilidad: Los íconos y textos emplean un contraste superior a 4.5:1 recomendados por las pautas WCAG.</em></p>
+        </section>
+
+        <!-- Módulo 3: Gestos Faciales y Expresión Corporal -->
+        <section id="gestos" class="card">
+            <h2>Módulo 3: Gestos Faciales y Lenguaje Corporal</h2>
+            <p class="descripcion-seña">
+                <strong>Fundamento Teórico &amp; Ejecución:</strong> En la lengua de señas, los componentes no manuales (cejas, mirada y postura) cumplen una función gramatical imprescindible: indican interrogación, afirmación o intensidad emocional durante la seña.
+            </p>
+            <div class="video-container">
+                <video controls width="100%">
+                    <source src="assets/videos/senas_3.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+            <div class="acciones-modulo">
+                <a href="#emergencias" class="btn-continuar">Continuar Aprendizaje ➔</a>
+            </div>
+            <p class="nota-accesibilidad">♿ <em>Accesibilidad: El enfoque visual en alta definición resalta la modulación del rostro.</em></p>
+        </section>
+
+        <!-- Módulo 4: Frases para Emergencias -->
+        <section id="emergencias" class="card">
+            <h2>Módulo 4: Frases para Emergencias y Salud</h2>
+            <p class="descripcion-seña">
+                <strong>Fundamento Teórico &amp; Ejecución:</strong> Diseñado para situaciones donde se requiere atención médica o ayuda inmediata. Combina señas directas de síntoma/dolor con contacto táctil sobre la zona del cuerpo afectada.
+            </p>
+            <div class="video-container">
+                <video controls width="100%">
+                    <source src="assets/videos/senas_4.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+
+            <!-- Guía Oficial de Reporte de Urgencia ECU 911 -->
+            <div class="guia-ecu911">
+                <h3>🚨 ¿Cómo reportar una urgencia mediante el servicio de emergencia?</h3>
+                <ol>
+                    <li><strong>Descarga la aplicación:</strong> Está disponible de forma gratuita para dispositivos Android e iOS buscando <em>ECU911</em>.</li>
+                    <li><strong>Regístrate con tus datos:</strong> Introduce tu número de cédula (validado con el Registro Civil), número celular y datos médicos básicos.</li>
+                    <li><strong>Configura tu discapacidad:</strong> Selecciona tu tipo y porcentaje de discapacidad. Esto es vital para que el operador reciba una ventana emergente notificando que el usuario es una persona sorda o sordomuda.</li>
+                    <li><strong>Envía la alerta:</strong> Reporta de manera georeferenciada (usando el GPS) eligiendo la categoría (Salud, Policía, Bomberos o Tránsito) <strong>sin necesidad de llamada de voz</strong>.</li>
+                </ol>
+            </div>
+
+            <div class="acciones-modulo">
+                <a href="tel:911" class="btn-emergencia" onclick="activarAlertaEmergencia(event)">🚨 Llamada Directa ECU 911 (Quito)</a>
+                <a href="#numeros" class="btn-continuar">Continuar Aprendizaje ➔</a>
+            </div>
+            <p class="nota-accesibilidad">♿ <em>Accesibilidad: Protocolo adaptado para comunicación inclusiva sin voz en Quito, Ecuador.</em></p>
+        </section>
+
+        <!-- Módulo 5: Números y Cantidades -->
+        <section id="numeros" class="card">
+            <h2>Módulo 5: Números, Cantidades y Tiempo</h2>
+            <p class="descripcion-seña">
+                <strong>Fundamento Teórico &amp; Ejecución:</strong> Representación sintética de cantidades numéricas (cardinales y ordinales) mediante posiciones fijas de los dedos y conteo rítmico frente al torso.
+            </p>
+            <div class="video-container">
+                <video controls width="100%">
+                    <source src="assets/videos/senas_5.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+            <div class="acciones-modulo">
+                <a href="#alfabeto" class="btn-continuar">🔄 Reiniciar Aprendizaje</a>
+            </div>
+            <p class="nota-accesibilidad">♿ <em>Accesibilidad: Repetición en bucle disponible desde las opciones del reproductor.</em></p>
+        </section>
+    </main>
+
+    <!-- Pie de página accesible -->
+    <footer>
+        <p>&copy; 2026 - Aplicación Multimedia de Interfaces Accesibles (ESPE)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
